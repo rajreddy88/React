@@ -52,7 +52,6 @@
 
 body {
   margin: 0;
-  background: linear-gradient(180deg, #ba6464 0%, #fc1111 100%);
 }
 
 #root {
@@ -109,22 +108,4 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
-}
-
-.card-container {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  background-color: linear-gradient(180deg, #56535300 0%, #ebe8e822 100%);
-  width: 320px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  padding: 16px;
-  box-sizing: border-box;
-  text-align: left;
 }
